@@ -1,38 +1,393 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+/*로그인 회원가입 css*/
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.form_container{
+    width: 350px;
+    height: 350px;
+    margin: 0 auto;
+    margin-top: 100px;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  
+  .form_container .form{
+    text-align: center;
+    background-color: #fff;
+    border: 1px solid #e6e6e6;
+    padding: 0 40px 25px 40px;
+    margin-bottom: 30px;
   }
-  to {
-    transform: rotate(360deg);
+  
+  .form .expl{
+    font-size: 17px;
+    text-align: center;
+    color: #969696;
+    font-weight: 600;
   }
-}
+  
+  .form .title {
+    overflow: hidden;
+    text-indent: 110%;
+    margin: 22px auto 8px;
+  }
+
+  .form .line{
+    border: 0.5px solid #bbbbbb;
+  }
+  
+  .form .line2{
+    border: 0.5px solid #bbbbbb;
+  }
+  
+  .login_user_gender{
+    float:left;
+    font-size:13px;
+    color:#5b5b5b;
+  }
+  
+  .login_user_email>input{
+    width: 100%;
+    background: 0 0;
+    background: #f9f9f9;
+    border: 1px solid #ebebeb;
+    border-radius: 3px;
+    box-sizing: border-box;
+    color: #444444;
+    font-size: 13px;
+    padding: 7px 8px 7px;
+  }
+  
+  .login_user_password>input{
+    width: 100%;
+    background: 0 0;
+    background: #f9f9f9;
+    border: 1px solid #ebebeb;
+    border-radius: 3px;
+    box-sizing: border-box;
+    color: #444444;
+    font-size: 13px;
+    padding: 7px 8px 7px;
+  }
+  
+  
+  .login_user_name>input{
+    width: 100%;
+    background: 0 0;
+    background: #f9f9f9;
+    border: 1px solid #ebebeb;
+    border-radius: 3px;
+    box-sizing: border-box;
+    color: #444444;
+    font-size: 13px;
+    padding: 7px 8px 7px;
+  }
+  
+  .login_user_birth>input{
+    width: 100%;
+    background: 0 0;
+    background: #f9f9f9;
+    border: 1px solid #ebebeb;
+    border-radius: 3px;
+    box-sizing: border-box;
+    color: #444444;
+    font-size: 13px;
+    padding: 7px 8px 7px;
+  }
+  
+  .form p{
+    margin-bottom: 10px;
+  }
+  
+  .form .login_with_kakao{
+    background: #fde039;
+    border-color: #fde039;
+    color: #fff;
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 1px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 28px;
+    outline: none;
+    width: 100%;
+    padding: 0;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  
+  
+  .form .login_with_E-mail{
+    background: #58ff66;
+    border-color: #58ff66;
+    color: #fff;
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 1px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 28px;
+    outline: none;
+    width: 100%;
+    padding: 0;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  
+  .form .submit_btn{
+    background: #3897f0;
+    border-color: #3897f0;
+    color: #fff;
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 2px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 28px;
+    outline: none;
+    width: 100%;
+    padding: 0;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  
+  .bottom_box{
+    text-align: center;
+    font-weight: 555;
+    /*height: 290px;*/
+    background-color: #fff;
+    border: 1px solid #e6e6e6;
+    padding: 20px 40px 25px 40px;
+    /*display: flex;*/
+    align-items: center;
+  }
+
+
+
+  /*마이페이지 css*/
+
+  .mypage{
+    text-align: center;
+    align-items: center;
+  }
+
+  .top{
+    border-bottom: 1px solid #c7c7c7;
+    padding: 15px 0px 15px 0px;
+  }
+
+  .search{
+    border: 1px solid #bdbdbd;
+    border-radius: 5px;
+    text-align: center;
+    background: #fafafa;
+    padding: 7px 8px 7px 8px;
+    margin-left:20%;
+    margin-right:20%;
+    vertical-align: super;
+  }
+
+  .logout{
+    cursor: pointer;
+    border: 5px solid #000000;
+    border-radius: 30px;
+    background: #ffffff;
+    color: #000000;
+    border-width: 1px;
+    line-height: 28px;
+    padding: 2px 10px 2px 10px;
+    vertical-align: super;
+  }
+
+  .profile{
+    text-align: center;
+    align-items: center;
+    
+  }
+
+  .edit_profile{
+    /* float:left; */
+    margin-right: 5px;
+    cursor: pointer;
+    border: 5px solid #000000;
+    border-radius: 30px;
+    background: #ffffff;
+    color: #000000;
+    border-width: 1px;
+    line-height: 30px;
+    padding: 2px 10px 2px 10px;
+    vertical-align:super;
+  }
+
+  .profile_pic{
+    /* float:left; */
+    margin-top: 50px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    text-align:center;
+    align-items: center;
+    border-radius:50%;
+    background: #ffffff;
+    overflow: hidden;
+    cursor:pointer;
+    padding:0;
+    border:0;
+    height:300px;
+    width:300px;
+  }
+
+  .profile_pic img{
+    width:100%;
+    height:100%;
+  }
+  
+
+  .user{
+    margin-bottom: 50px;
+  }
+  .username{
+    /* float:left; */
+    font-size: 27px;
+    font-weight: 600;
+    margin-right: 25px;
+  }
+
+  /* .detail{
+    display:flex;
+    height: 50px;
+    padding:18px 0;
+    font-size: 20px;
+    font-weight: 600px;
+    list-style: none;
+  }
+  .detail > li{
+    margin-right:35px;
+    font-weight: 600px;
+  } */
+
+
+  .space{
+    margin-left:22px;
+  }
+
+  .s{
+    margin-left: 6px;
+  }
+
+  .post_navi{
+    border-top: 1px solid #c7c7c7;
+    padding: 25px 0px 10px 0px;
+    letter-spacing: 1px;
+    width:700px;
+    margin:auto;
+    position:center;
+  }
+  
+  .post_navi >a{
+    text-decoration: none;
+    color:#5b5b5b;
+    margin-right: 70px;
+    font-size: 12px;
+    font-weight:600;
+  }
+
+  .photo_space{
+    flex-direction: column;
+    padding-bottom:0px;
+    padding-top:0px;
+    margin-top:10px;
+  }
+
+  .FFAVD{
+    object-fit: cover;
+    margin:auto;
+  }
+
+
+
+
+  /*피드 css*/
+
+  .feed{
+    text-align: center;
+    align-items: center;
+  }
+
+  .postbox{
+    border: 1px solid #919191;
+    margin-left:30%;
+    margin-right:30%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding: 44px 44px 77px 44px;
+    border-radius:5px;
+  }
+
+   .who{
+     border-radius:50%;
+     float:left;
+     overflow: hidden;
+     width:50px;
+     height:50px;
+     margin-right:10px;
+     margin-left:10px;
+   }
+
+   .tqtq{
+     float:left;
+     line-height: 220%;
+     font-size:20px;
+     font-weight:600;
+   }
+
+   .myphoto{
+     width:100%;
+     height:100%;
+     margin-top:22px;
+   }
+
+   .icon{
+     background-color: #ffffff;
+     float:left;
+   }
+
+   .good{
+     float:left;
+     cursor:pointer;
+     background-color: #ffffff;
+     border: 1px solid #ffffff;
+   }
+
+   .comment{
+     float:left;
+     cursor:pointer;
+     background-color: #ffffff;
+     border: 1px solid #ffffff;
+   }
+
+   .save{
+     float:left;
+     cursor:pointer;
+     background-color: #ffffff;
+     border: 1px solid #ffffff;
+   }
+
+   .btnbox{
+     margin-bottom:44px;
+   }
+
+
+   .namee{
+     float:left;
+     text-decoration: none;
+     color:#000000;
+     font-weight:600;
+     margin-right:5px;
+   }
+
+   .content{
+     float:left;
+   }
+
+   .wcomment{
+     float:left;
+     position:relative;
+     margin-top:20px;
+   }
